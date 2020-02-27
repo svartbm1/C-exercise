@@ -71,15 +71,6 @@ char name[21];
         case 'M' :
           medals();
           break;
-        case 'L' :
-	  printf("L command has not been implemented.\n");
-          break;
-        case 'W' :
-	  printf("W command has not been implemented.\n");
-          break;
-        case 'O' :
-          printf("O command has not been implemented.\n");
-          break;
         case 'Q' :
 	  printf("Freeing memory and ending program, bye bye!\n\n");
           end = 1;
